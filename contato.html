@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <link rel="stylesheet" href="assets/img/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
 
 </head>
-<body style="background-color:greenyellow;">
+<body>
     <ul id="menu">
         <li>
-            <a href="index.html"> Home</a>
+            <a class="menu-link" href="index.html"> Home</a>
         </li>
         <li>
-            <a href="contato.html"> Contato</a>
+            <a class="menu-link" href="contato.html"> Contato</a>
         </li>
     </ul>
-    <h1>        Você pode falar comigo e acompanhar meu trabalho nos seguintes links:</h1>
-    <a class="container">LinkedIn: <a class="container" href="https://www.linkedin.com/in/rafael-souza-686862118/" target="_blank"> https://www.linkedin.com/in/rafael-souza-686862118/ </a>
-    <a class="container">GitHub: <a class="container" href="https://github.com/VasoRuim011" target="_blank"> https://github.com/VasoRuim011 </a>
-
+    <h1>Você pode falar comigo e acompanhar meu trabalho nos seguintes links:</h1>
+    <p class="container">LinkedIn: <a class="container link-linkedin" href="https://www.linkedin.com/in/rafael-souza-686862118/" target="_blank"> https://www.linkedin.com/in/rafael-souza-686862118/ </a></p>
+    <p class="container">GitHub: <a class="container link-github" href="https://github.com/VasoRuim011" target="_blank"> https://github.com/VasoRuim011 </a></p>
+    
     <form>
         <h2>Deixe uma mensagem rápida:</h2>
         <label for="Nome"> Nome: </label>
@@ -31,16 +31,20 @@
         <input type="text" id="E-mail">
 
         <label for="Assunto"> Assunto: </label>
-        <textarea type="text" id="Assunto" cols="60" rows="5"></textarea> 
+        <textarea type="text" id="Assunto" cols="60" rows="5" maxlength="500"></textarea> 
+        <span class="char-count">500</span>
 
         <button>Enviar</button>
         
         <h2>Endereço</h2>
 
-        <p>  Rua Professor Manoelito de Ornellas, 303 - Chácara Santo Antônio (Zona Sul), São Paulo - SP, 04719-040      </p>
+        <p>  R. Castro Alves, 815 - Liberdade, São Paulo - SP, 01532-001      </p>
         
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2173.397070503365!2d-46.711525614465835!3d-23.632878162280143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce511f974cbd9f%3A0x906e2f30ee351af5!2sAtento%20Nova%20S%C3%A3o%20Paulo!5e0!3m2!1spt-BR!2sbr!4v1676654965735!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.1136443535097!2d-46.63431514388763!3d-23.5716290515902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599dc122a821%3A0x57c73c0cdf436493!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Imperium!5e1!3m2!1spt-BR!2sbr!4v1676692152477!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="400" height="300" style="border:0;"allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </form>
+    <footer>
+        Feito por: RafaelSouza&copy;
+    </footer>
 </body>
 </html>
