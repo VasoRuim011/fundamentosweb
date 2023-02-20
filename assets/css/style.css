@@ -42,11 +42,12 @@ body {
     position: relative;
     width: 18%;
     height: 30px;
+    color: purple;
   
 }
 
 .inner-name {
-    position: absolute;
+    position:relative;
     top: 17%;
     left: 350px;
     transform: translate(-50%, -50%);
@@ -67,14 +68,29 @@ body {
     display: flex;
     flex-direction: column;
 }
+.button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+  
+.button:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+    
+}
+  
 
-#menuli {
+#menu li {
     position: relative;
-    top:50%;
-    left: 30%;
+    left:5%;
     transform: translate(-50%, -50%);
     display: inline;
-    padding: 40px;
+    padding: 4px;
 }
 
 a {
