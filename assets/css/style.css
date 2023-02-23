@@ -84,6 +84,12 @@ body {
     cursor: pointer;
     
 }
+
+.h2p{
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+}
   
 #menu li {
     position: relative;
