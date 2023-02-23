@@ -67,6 +67,7 @@ body {
     color: purple;
     display: flex;
     flex-direction: column;
+    padding: 1%;
 }
 .button {
     background-color: purple;
@@ -84,7 +85,6 @@ body {
     
 }
   
-
 #menu li {
     position: relative;
     left:5%;
@@ -114,16 +114,17 @@ a {
 }
 
 
-
-
-
 /* Estilo página contato.html */
+
 html{
     font-size: 16px;
+    padding: 1%;
 }
 
 body {
     background-color: greenyellow;
+    padding: 1%;
+    margin-left: 0,5%;
 }
 
 h1 {
@@ -151,42 +152,88 @@ label {
     margin-top: 1em;
 }
 
-input[type="text"], textarea {
-    width: 100%;
-    max-width: 500px;
-    height: 50px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-    font-size: 1rem;
+.linkedin-container:hover .link-linkedin img {
+    transform: scale(1.2);
 }
 
-.char-count {
-    margin-top: -1em;
-    margin-bottom: 1em;
-    font-size: 0.8rem;
-    color: gray;
+.github-container:hover .link-github img {
+    transform: scale(1.2);
+}
+
+.btn-home {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #B3B3B3;
+    color: white;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: all 0.3s ease;
 }
   
-
-textarea {
-    height: 10em;
+.btn-home:hover {
+    background-color: #5c5c5c;
+    cursor: pointer;
+    border-color: #5c5c5c;
 }
 
-button {
-    margin-top: 1em;
+.btn-contato {
+    display: inline-block;
     padding: 0.5em 1em;
-    background-color: purple;
+    background-color: #B3B3B3;
     color: white;
-    border: none;
-    border-radius: 10px;
+    border: 2px solid #B3B3B3;
+    border-radius: 5px;
     font-size: 1em;
+    transition: all 0.3s ease;
+}
+  
+.btn-contato:hover {
+    background-color: #5c5c5c;
+    cursor: pointer;
+    border-color: #5c5c5c;
 }
 
 iframe {
     margin-top: 2em;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2em;
+}
+  
+.linkedin-icon, .github-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1em;
+    background-color: silver;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+  
+.linkedin-icon:hover, .github-icon:hover {
+    background-color: purple;
+    cursor: pointer;
+}
+  
+.linkedin-icon i, .github-icon i {
+    color: white;
+    font-size: 2em;
+}
+
+.btn-enviar:hover {
+    background-color: #5c5c5c;
+    cursor: pointer;
+    border-color: #5c5c5c;
+    
+}
+  
 
 
 
