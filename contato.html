@@ -10,7 +10,7 @@
 
 
 </head>
-<body>
+<body class="body-contato">
         <ul id="menu">
             <li>
                 <a class="btn-home menu li menu-link" href="index.html"> Home</a>
@@ -19,65 +19,75 @@
                 <a class="btn-contato menu li menu-link" href="contato.html"> Contato</a>
             </li>
         </ul>
-        <div class="social-icons">
-            <a href="#" class="linkedin-icon"><i class="fab fa-linkedin"></i></a>
-            <a href="#" class="github-icon"><i class="fa-brands fa-github-square"></i></a>
-          </div>
-          
+        
           
         
     <form>
-        <h2>Deixe uma mensagem rápida:
+        <h1 class="h1">Deixe uma mensagem rápida:</h1>
 
-        </h2>
-        <label for="Nome"> Nome: 
-
-        </label>
-        <input type="text" id="Nome">
+        <div class="container-contato">
+            <div class="left-side">
+                <div class="form-group">
+                    <label for="Nome">Nome:</label>
+                    <input type="text" id="Nome">
+                </div>
+                  
+                <div class="form-group">
+                    <label for="E-mail">E-mail:</label>
+                    <input type="text" id="E-mail">
+                </div>
+                  
+                <div class="form-group">
+                    <label for="Assunto">Assunto:</label>
+                    <textarea type="text" id="Assunto" cols="60" rows="5" maxlength="500"></textarea> 
+                    <span class="char-count">500</span>
+                </div>
+                  
+                <a class="btn-enviar" type="submit">Enviar</a>
+              </form>
+            </div>
+          
+            <div class="right-side">
+              <h2>Nosso endereço</h2>
+              <p>Rua das Flores, 123</p>
+              <p>Bairro Jardim das Tulipas</p>
+              <p>Cidade - Estado</p>
+          
+              <div>
+                <iframe  class="iframe-maps"  
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.1136443535097!2d-46.63431514388763!3d-23.5716290515902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599dc122a821%3A0x57c73c0cdf436493!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Imperium!5e1!3m2!1spt-BR!2sbr!4v1676692152477!5m2!1spt-BR!2sbr" width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade" 
+                    width="400" 
+                    height="300" 
+                    style="border:0;"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+       
         
-        <label for="E-mail"> E-mail: 
-
-        </label>
-        <input type="text" id="E-mail">
-
-        <label for="Assunto"> Assunto: 
-
-        </label>
-        <textarea type="text" id="Assunto" cols="60" rows="5" maxlength="500"></textarea> 
-        <span class="char-count">500
-
-        </span>
-
-        <button class="btn-home btn-enviar ">Enviar
-
-        </button>
         
-        <h2>Endereço
-
-        </h2>
-
-        <p>  R. Castro Alves, 815 - Liberdade, São Paulo - SP, 01532-001      
-
-        </p>
-        
-        <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d472.1136443535097!2d-46.63431514388763!3d-23.5716290515902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce599dc122a821%3A0x57c73c0cdf436493!2sCondom%C3%ADnio%20Edif%C3%ADcio%20Imperium!5e1!3m2!1spt-BR!2sbr!4v1676692152477!5m2!1spt-BR!2sbr" width="600" 
-            height="450" 
-            style="border:0;" 
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade" 
-            width="400" 
-            height="300" 
-            style="border:0;"
-            allowfullscreen="" 
-            loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-
     </form>
+    <hr>
     <footer>
-        Feito por: RafaelSouza&copy;
+
+        <div class="social-icons p-30">
+            <a href="https://www.linkedin.com/in/rafael-souza-686862118/" target="_blank" class="linkedin-icon"><img class="tm-social" src="assets/img/linkedin.png" alt="logo linkedin"></a>
+            <a href="https://github.com/VasoRuim011" target="_blank" class="github-icon"> <img class="tm-social" src="assets/img/github.png" alt="logo github"></a>
+        </div>
+        
+        
+        <div class="container">
+            Feito por: RafaelSouza&copy;
+        </div>
     </footer>
 </body>
 </html>
